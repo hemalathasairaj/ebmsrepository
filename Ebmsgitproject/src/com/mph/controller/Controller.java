@@ -1,5 +1,4 @@
 package com.mph.controller;
-package com.mph.controller;
 import java.util.Scanner;
 import com.mph.model.Calculator;
 
@@ -12,13 +11,13 @@ public class Controller
 	     System.out.println("code started from here");
 	     cal=new Calculator();
 	     int a,b;
-       Scanner sc = new Scanner(System.in);
+       	     Scanner sc = new Scanner(System.in);
 	     System.out.println("Enter first number");
-       a = sc.nextInt();
+             a = sc.nextInt();
 	     cal.setA(a);
 	     System.out.println("Enter Second number");
 	     b = sc.nextInt();
 	     cal.setB(b);
-       System.out.println(cal);	        
+             System.out.println(cal);	        
 	    }	 
-	}
+}
