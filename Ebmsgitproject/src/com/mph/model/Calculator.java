@@ -4,8 +4,7 @@ public class Calculator {
 	 private int  a;
 	 private  int b;
 	public Calculator() {
-		super();
-		// TODO Auto-generated constructor stub
+		System.out.println("from calculator constructor");
 	}
 	public int getA() {
 		return a;
@@ -26,7 +25,7 @@ public class Calculator {
 	}
 	@Override
 	public String toString() {
-		return "Calculator [a=" + a + ", b=" + b + "]";
+		return "[Sum=" + a + "+" + b+ "="+(a+b)+"]";
 	}
 	 
 
