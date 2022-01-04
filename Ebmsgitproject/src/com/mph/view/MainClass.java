@@ -7,6 +7,7 @@ public class MainClass {
       		system.out.println("hello");
 		system.out.println("Happy new year");
 		system.out.println("Hello guys");
+		system.out.println("Welcome to EBMS");
 		
 	}
 
