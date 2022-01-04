@@ -1,6 +1,7 @@
 package com.mph.view;
 
 import java.util.Scanner;
+import com.mph.controller.Controller;
 public class MainClass {
 
 	public static void main(String[] args) {
@@ -16,7 +17,9 @@ public class MainClass {
 		a = sc.nextInt();
 		System.out.println("Enter Second number");
 		b = sc.nextInt();
-
+		
+		Controller c = new Controller();
+		c.addnumbers();
 
 	}
 
