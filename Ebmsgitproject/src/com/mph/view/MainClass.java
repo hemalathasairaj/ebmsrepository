@@ -10,7 +10,7 @@ public class MainClass {
 		System.out.println("Happy new year");
 		System.out.println("Hello guys");
 		System.out.println("Welcome to EBMS");
-		
+		System.out.println("Welcome");
 		Controller c = new Controller();
 		c.addnumbers();
 
