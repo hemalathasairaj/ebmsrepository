@@ -11,13 +11,6 @@ public class MainClass {
 		System.out.println("Hello guys");
 		System.out.println("Welcome to EBMS");
 		
-		int a,b;
-		Scanner sc = new Scanner(System.in);
-		System.out.println("Enter first number");
-		a = sc.nextInt();
-		System.out.println("Enter Second number");
-		b = sc.nextInt();
-		
 		Controller c = new Controller();
 		c.addnumbers();
 
